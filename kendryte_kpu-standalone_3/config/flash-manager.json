@@ -1,0 +1,18 @@
+{
+    "$schema": "vscode://schemas/flasher",
+    "downloadSections": [
+        {
+            "id": "1559646153293",
+            "filesize": 1903016,
+            "name": "KMODEL",
+            "address": "0x601000",
+            "autoAddress": true,
+            "filename": "new_smoke.kmodel",
+            "addressEnd": "0x7D2000",
+            "swapBytes": true
+        }
+    ],
+    "baseAddress": "0x601000",
+    "totalSize": 1903016,
+    "endAddress": "0x7D2000"
+}

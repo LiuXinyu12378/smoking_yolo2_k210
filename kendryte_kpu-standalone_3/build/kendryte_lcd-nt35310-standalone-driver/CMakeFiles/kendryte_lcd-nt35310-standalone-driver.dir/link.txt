@@ -1,0 +1,2 @@
+riscv64-unknown-elf-ar.exe qc libkendryte_lcd-nt35310-standalone-driver.a  CMakeFiles/kendryte_lcd-nt35310-standalone-driver.dir/src/lcd.c.obj CMakeFiles/kendryte_lcd-nt35310-standalone-driver.dir/src/nt35310.c.obj
+riscv64-unknown-elf-ranlib.exe libkendryte_lcd-nt35310-standalone-driver.a

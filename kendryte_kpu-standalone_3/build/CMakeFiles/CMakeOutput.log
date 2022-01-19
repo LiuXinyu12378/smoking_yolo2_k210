@@ -1,0 +1,635 @@
+The target system is: Generic -  - 
+The host system is: Windows - 6.1.7601 - 
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe 
+Build flags: ;-mcmodel=medany
+Id flags:  
+
+The output was:
+0
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/3.13.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe 
+Build flags: ;-mcmodel=medany
+Id flags:  
+
+The output was:
+0
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_a4905/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_a4905.dir/build.make CMakeFiles/cmTC_a4905.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a4905.dir/CMakeCCompilerABI.c.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -o CMakeFiles/cmTC_a4905.dir/CMakeCCompilerABI.c.obj   -c C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a4905
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany    -v "CMakeFiles/cmTC_a4905.dir/CMakeCCompilerABI.c.obj"   -o cmTC_a4905 
+Using built-in specs.
+COLLECT_GCC=C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe
+COLLECT_LTO_WRAPPER=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe
+Target: riscv64-unknown-elf
+Configured with: /workdir/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-w64-mingw32 --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --without-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_a4905' '-march=rv64imafc' '-mabi=lp64f'
+ c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\KendryteIDE_Cache\ccKAzvdE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=c:\users\administrator\desktop\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_a4905 c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_a4905.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_a4905' '-march=rv64imafc' '-mabi=lp64f'
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_a4905/fast"]
+  ignore line: [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_a4905.dir/build.make CMakeFiles/cmTC_a4905.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a4905.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -o CMakeFiles/cmTC_a4905.dir/CMakeCCompilerABI.c.obj   -c C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a4905]
+  ignore line: [cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany    -v "CMakeFiles/cmTC_a4905.dir/CMakeCCompilerABI.c.obj"   -o cmTC_a4905 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /workdir/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-w64-mingw32 --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --without-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_a4905' '-march=rv64imafc' '-mabi=lp64f']
+  link line: [ c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\KendryteIDE_Cache\ccKAzvdE.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=c:\users\administrator\desktop\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_a4905 c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_a4905.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\KendryteIDE_Cache\ccKAzvdE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=c:\users\administrator\desktop\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a4905] ==> ignore
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> ignore
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o] ==> ignore
+    arg [-Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0] ==> dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0]
+    arg [-Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc] ==> dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc]
+    arg [-Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib]
+    arg [-Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib] ==> dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib]
+    arg [CMakeFiles/cmTC_a4905.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o] ==> ignore
+  collapse library dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0] ==> [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0]
+  collapse library dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc] ==> [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/lib/gcc]
+  collapse library dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/lib]
+  collapse library dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib] ==> [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/lib]
+  implicit libs: [gcc;c;gloss;gcc]
+  implicit dirs: [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0;C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/lib/gcc;C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_274f4/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_274f4.dir/build.make CMakeFiles/cmTC_274f4.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_274f4.dir/feature_tests.c.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -std=c11 -o CMakeFiles/cmTC_274f4.dir/feature_tests.c.obj   -c C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_274f4
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany     "CMakeFiles/cmTC_274f4.dir/feature_tests.c.obj"   -o cmTC_274f4 
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_e33f1/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_e33f1.dir/build.make CMakeFiles/cmTC_e33f1.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e33f1.dir/feature_tests.c.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -std=c99 -o CMakeFiles/cmTC_e33f1.dir/feature_tests.c.obj   -c C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e33f1
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany     "CMakeFiles/cmTC_e33f1.dir/feature_tests.c.obj"   -o cmTC_e33f1 
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_15ba7/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_15ba7.dir/build.make CMakeFiles/cmTC_15ba7.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15ba7.dir/feature_tests.c.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe   -mcmodel=medany    -std=c90 -o CMakeFiles/cmTC_15ba7.dir/feature_tests.c.obj   -c C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_15ba7
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-gcc.exe  -mcmodel=medany     "CMakeFiles/cmTC_15ba7.dir/feature_tests.c.obj"   -o cmTC_15ba7 
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_5bd94/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_5bd94.dir/build.make CMakeFiles/cmTC_5bd94.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5bd94.dir/CMakeCXXCompilerABI.cpp.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -o CMakeFiles/cmTC_5bd94.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_5bd94
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany    -v "CMakeFiles/cmTC_5bd94.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_5bd94 
+Using built-in specs.
+COLLECT_GCC=C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe
+COLLECT_LTO_WRAPPER=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe
+Target: riscv64-unknown-elf
+Configured with: /workdir/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-w64-mingw32 --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --without-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_5bd94' '-march=rv64imafc' '-mabi=lp64f'
+ c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\KendryteIDE_Cache\ccmIolOM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=c:\users\administrator\desktop\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_5bd94 c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_5bd94.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_5bd94' '-march=rv64imafc' '-mabi=lp64f'
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_5bd94/fast"]
+  ignore line: [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_5bd94.dir/build.make CMakeFiles/cmTC_5bd94.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5bd94.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -o CMakeFiles/cmTC_5bd94.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/cmake/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_5bd94]
+  ignore line: [cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany    -v "CMakeFiles/cmTC_5bd94.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_5bd94 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /workdir/riscv-gcc/configure --target=riscv64-unknown-elf --host=x86_64-w64-mingw32 --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --without-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
+  ignore line: [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-v' '-o' 'cmTC_5bd94' '-march=rv64imafc' '-mabi=lp64f']
+  link line: [ c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\KendryteIDE_Cache\ccmIolOM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=c:\users\administrator\desktop\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_5bd94 c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_5bd94.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\ADMINI~1\AppData\Local\Temp\KendryteIDE_Cache\ccmIolOM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=c:\users\administrator\desktop\kendryteide\localpackage\toolchain\bin\../riscv64-unknown-elf] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5bd94] ==> ignore
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> ignore
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o] ==> ignore
+    arg [-Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0] ==> dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0]
+    arg [-Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc] ==> dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc]
+    arg [-Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib]
+    arg [-Lc:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib] ==> dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib]
+    arg [CMakeFiles/cmTC_5bd94.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--start-group] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgloss] ==> lib [gloss]
+    arg [--end-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o] ==> ignore
+  collapse library dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0] ==> [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0]
+  collapse library dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc] ==> [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/lib/gcc]
+  collapse library dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/lib]
+  collapse library dir [c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../riscv64-unknown-elf/lib] ==> [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/lib]
+  implicit libs: [stdc++;m;gcc;c;gloss;gcc]
+  implicit dirs: [C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/lib/gcc/riscv64-unknown-elf/8.2.0;C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/lib/gcc;C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/riscv64-unknown-elf/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_11fae/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_11fae.dir/build.make CMakeFiles/cmTC_11fae.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11fae.dir/feature_tests.cxx.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++2a -o CMakeFiles/cmTC_11fae.dir/feature_tests.cxx.obj -c C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_11fae
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_11fae.dir/feature_tests.cxx.obj"   -o cmTC_11fae 
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_cc73f/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_cc73f.dir/build.make CMakeFiles/cmTC_cc73f.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc73f.dir/feature_tests.cxx.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++17 -o CMakeFiles/cmTC_cc73f.dir/feature_tests.cxx.obj -c C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_cc73f
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_cc73f.dir/feature_tests.cxx.obj"   -o cmTC_cc73f 
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_0eedf/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_0eedf.dir/build.make CMakeFiles/cmTC_0eedf.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0eedf.dir/feature_tests.cxx.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++14 -o CMakeFiles/cmTC_0eedf.dir/feature_tests.cxx.obj -c C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_0eedf
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_0eedf.dir/feature_tests.cxx.obj"   -o cmTC_0eedf 
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_d153d/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_d153d.dir/build.make CMakeFiles/cmTC_d153d.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d153d.dir/feature_tests.cxx.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++11 -o CMakeFiles/cmTC_d153d.dir/feature_tests.cxx.obj -c C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d153d
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_d153d.dir/feature_tests.cxx.obj"   -o cmTC_d153d 
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe" "cmTC_c791c/fast"
+C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/make.exe -f CMakeFiles/cmTC_c791c.dir/build.make CMakeFiles/cmTC_c791c.dir/build
+make.exe[1]: Entering directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c791c.dir/feature_tests.cxx.obj
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe    -mcmodel=medany    -std=c++98 -o CMakeFiles/cmTC_c791c.dir/feature_tests.cxx.obj -c C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c791c
+cd C:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp && C:/Users/Administrator/Desktop/KendryteIDE/LocalPackage/toolchain/bin/riscv64-unknown-elf-g++.exe   -mcmodel=medany     "CMakeFiles/cmTC_c791c.dir/feature_tests.cxx.obj"   -o cmTC_c791c 
+c:/users/administrator/desktop/kendryteide/localpackage/toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/ld.exe: warning: cannot find entry symbol _start; defaulting to 00000000000100b0
+make.exe[1]: Leaving directory 'c:/Users/Administrator/Desktop/yolok210/yolo-for-k210_320240/yolo-for-k210_320240/kendryte_kpu-standalone_3/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

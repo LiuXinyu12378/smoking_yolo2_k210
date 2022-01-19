@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "kpu.h": "c",
+        "dvp.h": "c",
+        "lcd.h": "c",
+        "plic.h": "c",
+        "sleep.h": "c",
+        "region_layer.h": "c",
+        "math.h": "c"
+    },
+    "debug.openocd.port": 59765
+}

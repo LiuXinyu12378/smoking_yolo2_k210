@@ -1,0 +1,30 @@
+{
+    "model" : {
+        "architecture":         "MobileNet",                              
+        "input_size":           [224,320],
+        "anchors":              [7.05, 6.88, 10.830188679245284, 17.14, 23.35, 24.00, 34.29, 55.79, 106.87, 121.37],
+        "labels":               ["smoke"],
+        "coord_scale" : 		1.0,
+        "class_scale" : 		1.0,
+        "object_scale" : 	5.0,
+        "no_object_scale" : 	1.0
+    },
+    "pretrained" : {
+        "full":   "mobilenet_7_5_224_tf_no_top.h5"
+    },
+    "train" : {
+        "actual_epoch":         60,
+        "train_image_folder":   "smoke/JPEGImages",
+        "train_annot_folder":   "smoke/Annotations",
+        "train_times":          2,
+        "valid_image_folder":   "",
+        "valid_annot_folder":   "",
+        "valid_times":          1,
+        "batch_size":           24,
+        "learning_rate":        1e-4,
+        "saved_folder":   		"save",
+        "first_trainable_layer": "",
+        "jitter":			true,
+        "is_only_detect" : 		false
+    }
+}
